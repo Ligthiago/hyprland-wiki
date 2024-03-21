@@ -223,6 +223,18 @@ socat -u UNIX-CONNECT:/tmp/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock - | s
 
 </details>
 
+## AGS
+
+[AGS](https://github.com/Aylur/ags) (Aylur's GTK Shell) is a library built for GJS that allows you to define GTK widgets in a declarative way. It has first class Hyprland support with a [built-in service](https://aylur.github.io/ags-docs/services/hyprland/).
+
+To install AGS see the [installation instructions](https://aylur.github.io/ags-docs/config/installation/).
+
+AGS is configured in JavaScript or TypeScript and some familiarity with these languages is preferable, but the documentation provides plenty of examples, so it is possible to build your own widgets without deep knowledge of them.
+
+Distinctive feature of AGS is a set of built-in services, such as system tray or mpris, so generally you don’t have to use external scripts and binaries to query information.
+
+For more information on configuration and widget examples, see the [AGS wiki](https://aylur.github.io/ags-docs/).
+
 ## Hybrid
 
 Like Waybar, [Hybrid](https://github.com/vars1ty/HybridBar) is a GTK status bar
